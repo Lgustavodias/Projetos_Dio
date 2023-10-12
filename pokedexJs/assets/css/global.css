@@ -1,25 +1,24 @@
-*{
+* {
     font-family: 'Pokemon Solid', sans-serif;
     box-sizing: border-box;
 }
 
-body{
-    background-color: darkgrey;
+body {
+    background-color: #f6f8fc;
 }
 
-.content{
-    width: 100vh;
+.content {
+    width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: white;
+    background-color: #fff;
 }
 
-@media screen and (min-width:992px){
-    .content{
+@media screen and (min-width: 992px) {
+    .content {
         max-width: 992px;
         height: auto;
-        margin:  auto;
+        margin: 1rem auto;
         border-radius: 1rem;
     }
-
 }
